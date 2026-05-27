@@ -1,10 +1,11 @@
 name: permission_plus
 description: "A Flutter plugin for requesting and checking permissions."
-homepage: https://github.com/jagadeeshchoudhary/permission_plus
-repository: https://github.com/jagadeeshchoudhary/permission_plus
-issue_tracker: https://github.com/jagadeeshchoudhary/permission_plus/issues
 
 version: 0.0.1
+
+homepage: https://github.com/jagadeeshchoudhary/permission_plus
+repository: https://github.com/jagadeeshchoudhary/permission_plus/tree/main
+issue_tracker: https://github.com/jagadeeshchoudhary/permission_plus/issues
 
 environment:
   sdk: ^3.12.0
@@ -29,6 +30,18 @@ dev_dependencies:
 flutter:
   plugin:
     platforms:
+      android:
+        default_package: permission_plus_android
+      web:
+        default_package: permission_plus_web
+      windows:
+        default_package: permission_plus_windows
+      linux:
+        default_package: permission_plus_linux
+      macos:
+        default_package: permission_plus_apple
+      ios:
+        default_package: permission_plus_apple
 
 topics:
   - permissions
