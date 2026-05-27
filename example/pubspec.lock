@@ -88,6 +88,11 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_web_plugins:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   fuchsia_remote_debug_protocol:
     dependency: transitive
     description: flutter
@@ -168,6 +173,54 @@ packages:
       path: ".."
       relative: true
     source: path
+    version: "0.0.1"
+  permission_plus_android:
+    dependency: transitive
+    description:
+      name: permission_plus_android
+      sha256: b9cac4fa73b19fd690af8c78f57b365b7b7727529d2f9678f8846dde271d0b55
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.1"
+  permission_plus_apple:
+    dependency: transitive
+    description:
+      name: permission_plus_apple
+      sha256: d98fb3a013de1295e72f6780b599208231083877b299913856af8a20b122b01c
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.1"
+  permission_plus_linux:
+    dependency: transitive
+    description:
+      name: permission_plus_linux
+      sha256: "1b73872e24290965aba35767d4053ea96e1ff2cc5204c7e57d1dd85ed75eb35b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.1"
+  permission_plus_platform_interface:
+    dependency: transitive
+    description:
+      name: permission_plus_platform_interface
+      sha256: "8686cefc08fbe280d3d1af5bb2dd3e2ee49d8895d7642ec3712e870a076d6fb9"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.1"
+  permission_plus_web:
+    dependency: transitive
+    description:
+      name: permission_plus_web
+      sha256: c45b1458a40ffd2f5462a10cafa03575fa5418241948497ac418aff37e4e1a4e
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.1"
+  permission_plus_windows:
+    dependency: transitive
+    description:
+      name: permission_plus_windows
+      sha256: b6e452e45b1888fa5df0150555846f4fdd2bafa6ae16114a2fe8e6858902a404
+      url: "https://pub.dev"
+    source: hosted
     version: "0.0.1"
   platform:
     dependency: transitive
@@ -270,6 +323,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "15.2.0"
+  web:
+    dependency: transitive
+    description:
+      name: web
+      sha256: "868d88a33d8a87b18ffc05f9f030ba328ffefba92d6c127917a2ba740f9cfe4a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.1"
   webdriver:
     dependency: transitive
     description:
